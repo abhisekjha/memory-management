@@ -10,6 +10,7 @@ My implementation compiles into four shared libraries, tailored to different hea
 make
 
 $ env LD_PRELOAD=lib/libmalloc-ff.so tests/ffnf
+```
 
 # Custom Malloc and Free Library Implementation
 
